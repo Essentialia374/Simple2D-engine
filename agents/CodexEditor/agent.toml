@@ -1,0 +1,10 @@
+[meta]
+id = "CodexEditor"
+description = "Editor application with map painter and profiler panels."
+
+[requires]
+modules = ["CodexBuild"]
+
+[provides]
+headers = ["include/codex/editor/*.hpp"]
+libs = ["libcodex_editor.a"]

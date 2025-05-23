@@ -1,0 +1,10 @@
+[meta]
+id = "CodexRender"
+description = "Owns all Vulkan objects, frame graph, and GPU diagnostics."
+
+[requires]
+modules = ["CodexBuild"]
+
+[provides]
+headers = ["include/codex/render/*.hpp"]
+libs = ["libcodex_render.a"]

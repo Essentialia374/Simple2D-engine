@@ -1,0 +1,10 @@
+[meta]
+id = "CodexAudio"
+description = "Low-latency audio playback subsystem."
+
+[requires]
+modules = ["CodexBuild"]
+
+[provides]
+headers = ["include/codex/audio/*.hpp"]
+libs = ["libcodex_audio.a"]

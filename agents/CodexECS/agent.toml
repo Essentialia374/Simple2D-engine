@@ -1,0 +1,10 @@
+[meta]
+id = "CodexECS"
+description = "Entity-Component-System core and scheduler."
+
+[requires]
+modules = ["CodexBuild"]
+
+[provides]
+headers = ["include/codex/ecs/*.hpp"]
+libs = ["libcodex_ecs.a"]

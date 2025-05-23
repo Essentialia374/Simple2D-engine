@@ -1,0 +1,10 @@
+[meta]
+id = "CodexBuild"
+description = "Generates CMake + Ninja files for cross-platform builds and CI."
+
+[requires]
+modules = []
+
+[provides]
+headers = ["include/codex/build/*.hpp"]
+libs = ["libcodex_build.a"]
