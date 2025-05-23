@@ -1,0 +1,10 @@
+[meta]
+id = "CodexAsset"
+description = "Offline and runtime asset pipeline with live-reload."
+
+[requires]
+modules = ["CodexBuild"]
+
+[provides]
+headers = ["include/codex/asset/*.hpp"]
+libs = ["libcodex_asset.a"]

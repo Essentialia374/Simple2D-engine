@@ -1,0 +1,10 @@
+[meta]
+id = "CodexTest"
+description = "Unit, integration and performance testing."
+
+[requires]
+modules = ["CodexBuild"]
+
+[provides]
+headers = ["include/codex/test/*.hpp"]
+libs = ["libcodex_test.a"]

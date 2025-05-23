@@ -1,0 +1,10 @@
+[meta]
+id = "CodexLua"
+description = "Lua VM bindings with hot-reload support."
+
+[requires]
+modules = ["CodexBuild"]
+
+[provides]
+headers = ["include/codex/lua/*.hpp"]
+libs = ["libcodex_lua.a"]

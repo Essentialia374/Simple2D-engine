@@ -1,0 +1,10 @@
+[meta]
+id = "CodexDoc"
+description = "Documentation generator and site publisher."
+
+[requires]
+modules = ["CodexBuild"]
+
+[provides]
+headers = ["include/codex/doc/*.hpp"]
+libs = ["libcodex_doc.a"]
